@@ -72,5 +72,4 @@ module.exports = (robot) ->
               upsert: true
             , (err, res) ->
               robot.logger.error err if err
-            return
-
+return
